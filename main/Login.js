@@ -118,7 +118,7 @@ else if (jay = true, john = true) {
         mm1, 3000)
 
         function mm1 (){
-            (window.open("homepage.html", "_top"))
+            (window.open("/index.html", "_top"))
         }
 }
 
