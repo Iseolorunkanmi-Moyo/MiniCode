@@ -20,29 +20,23 @@ function show() {
     
 }
 
-var count2 = 1;
+
 
 document.querySelector("#right-btn").addEventListener("click", show2);
 
 function show2() {
     
-    count2++
-
-    if (count2 % 2 === 0){
-
-        document.getElementById("side-nav-bar").style.display = "flex";
-       
-        
-    }
-
-    else if (count2 % 2 === 1){
-
-        document.getElementById("side-nav-bar").style.display = "none";
-        
-
-    }
-    
+    document.getElementById("side-nav-bar").style.display = "flex";
+    document.getElementById("right-btn").style.display = "none";
+    document.getElementById("close").style.display = "flex";
+            
 }
+
+document.getElementById("close").addEventListener("click", function(){
+    document.getElementById("side-nav-bar").style.display = "none";
+    document.getElementById("close").style.display = "none";
+    document.getElementById("right-btn").style.display = "flex";
+})
 
 var users = ["moyo", "jay"]
 

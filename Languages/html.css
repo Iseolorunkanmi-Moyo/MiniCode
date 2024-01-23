@@ -40,7 +40,8 @@
         height: 40px;
         width: 40px;
         background-size: 100%;
-        border: solid 1px ;
+        border: solid 1px rgba(0,0,0,0.2);
+        border-radius: 3px;
     }
     
     .dd-btn{
@@ -59,7 +60,7 @@
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   
     }
       
-    #dd-content a {
+    .links {
         color: rgb(24, 20, 20);
         text-decoration: none;
         display: block;
@@ -68,14 +69,17 @@
     }
 
     .set{
-        padding: -10px;
+        height: 0px;
+        padding: 0px;
+        margin: 0px;
+        display: none;
     }
 
     .settings{
-        width: 30px;
-        height: 30px;
-        margin: 0px;
+        height: 0px;
         padding: 0px;
+        margin: 0px;
+        display: none;
     }
   
     #dd-content a:hover {
@@ -125,6 +129,7 @@
         Overflow-y:scroll;
         overflow-x: hidden;
         z-index: 1;
+        scrollbar-width: thin;
     }
 
     .side-nav-bar h2{
@@ -142,8 +147,28 @@
         padding: 8px 12px;
     }
 
+    #close{
+        font-size: 18px;
+        font-weight: 600;
+        /* padding: 2px; */
+        height: 30px;
+        width: 30px;
+        background-color: #222731;
+        color: white;
+        border: none;
+        border-radius:0px 5px  5px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;         
+        position: absolute;
+        top: 0px;
+        left: 200px;
+        z-index: 2;
+        display: none;
+    }
+
     .two:hover{
-        background-color: rgb(147, 158, 168)
+        background-color: rgb(189, 203, 216)
     }
 
     .side-nav-bar span{
@@ -391,6 +416,9 @@ body{
     height: fit-content;
     border-radius: 20px;
     padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
 }
 
 .settings{
@@ -415,6 +443,8 @@ body{
     Overflow-y:scroll;
     overflow-x: hidden;
     position: fixed;
+    scrollbar-width: thin;
+    
 }
 
 .side-nav-bar h2{
