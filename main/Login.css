@@ -1,7 +1,8 @@
 @media only screen and (max-width: 800px){
 body {
     font-family: roboto;
-    background-image: url(/Images/background_in_space.gif);
+    /* background-image: url(/Images/background_in_space.gif); */
+    background-color: #222731;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -46,7 +47,7 @@ input {
 }
 
 #submit{
-    background-color: rgb(11, 7, 53);
+    background-color: #222731;
     color: #fff;
     padding: 10px;
     border: none;
@@ -57,7 +58,7 @@ input {
 }
 
 #submit:hover {
-    background-color: rgba(11, 7, 53,0.8);
+    background-color:#232933;
 }
 
 
@@ -184,7 +185,10 @@ input {
 
 
 
-
+#submit:hover,
+#submit:active{
+    opacity: 0.9;
+}
 
 
 
@@ -198,7 +202,8 @@ input {
 
 body {
     font-family: roboto;
-    background-image: url(/Images/background_in_space.gif);
+    /* background-image: url(/Images/background_in_space.gif); */
+    background-color: #222731;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -245,7 +250,7 @@ input {
 }
 
 #submit{
-    background-color: rgb(11, 7, 53);
+    background-color:#222731;
     color: #fff;
     padding: 10px;
     border: none;
@@ -256,7 +261,7 @@ input {
 }
 
 #submit:hover {
-    background-color: rgba(11, 7, 53,0.8);
+    background-color:#222731;
 }
 
 .link-div{
