@@ -31,14 +31,14 @@ function show2() {
     if (count2 % 2 === 0){
 
         document.getElementById("side-nav-bar").style.display = "flex";
-        document.getElementById("right-btn").style.backgroundImage = "url(/Images/left-arrow.svg)";
+       
         
     }
 
     else if (count2 % 2 === 1){
 
         document.getElementById("side-nav-bar").style.display = "none";
-        document.getElementById("right-btn").style.backgroundImage = "url(/Images/right-arrow.svg)";
+        
 
     }
     
