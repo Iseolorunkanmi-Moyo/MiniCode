@@ -6,6 +6,7 @@
         margin: 0;
         font-family: roboto;
         background-color: white;
+        overflow-x: hidden;
     }
 
     .navbar{
