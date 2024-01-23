@@ -1,0 +1,321 @@
+/* Phone */
+@media only screen and (max-width: 800px) {
+
+    body{
+        background-color:white;
+        margin: 0;
+        font-family: roboto;
+        background-image: url(/Images/background_in_space.gif);
+    }
+
+    .navbar{
+        background-color: white;
+        position: sticky;
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .header{
+        margin: 5px 10px;
+    }
+
+    .profile1{
+        height: 50px;
+        border-radius: 100px;
+    }
+
+    .dd{
+        height: 40px;      
+        width: 40px;
+        margin-right: 20px;
+    }
+      
+    #dd-btn{
+        background-image: url(/Images/menu.png);
+        height: 40px;
+        width: 40px;
+        background-size: 100%;
+        border: solid 1px ;
+    }
+    
+    .dd-btn{
+        background-image: url(/Images/menu.png);
+        height: 40px;
+        width: 40px;
+        background-size: 100%;
+    }
+
+    #dd-content {
+        display: none;
+        position: absolute;
+        right: 11px;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   
+    }
+      
+    #dd-content a {
+        color: rgb(24, 20, 20);
+        text-decoration: none;
+        display: block;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .set{
+        padding: -10px;
+    }
+
+    .settings{
+        width: 30px;
+        height: 30px;
+        margin: 0px;
+        padding: 0px;
+    }
+  
+    #dd-content a:hover {
+                        background-color: rgb(11, 7, 53);
+                        color: white;
+                        }
+                        
+    
+    #dd-content a:active{background-color: rgb(11, 7, 53);
+                        color: white;}
+    
+    .dd:hover #dd-content {display:block;}  
+      
+    .dd:hover #dd-btn {background-color: #3e8e41;}
+   
+    .empty{
+        margin-top: 150px;
+    }
+
+    #right-btn{
+        border: none;
+        background-color: white;
+        background-image: url(/Images/right-arrow.svg);
+        height: 40px;
+        width: 40px;
+        background-size: 100%;
+    }
+    
+    .side-nav-bar{
+        color: black;
+        display: none;
+        flex-direction: column;
+        background-color: rgb(225, 228, 231);
+        width: 200px;
+        height: 600px;
+        float: left;
+        border-right: solid 1px;
+        Overflow-y:scroll;
+        overflow-x: hidden;
+    }
+
+    .side-nav-bar h2{
+        text-align: center;
+        background-color: white;
+        margin-top: 0;
+        padding: 20px 0px;
+        margin-bottom: 0;
+    }
+
+    .side-nav-bar a{
+        width: 100%;
+        text-decoration: none;
+        color: black;
+        padding: 8px 12px;
+    }
+
+    .two:hover{
+        background-color: rgb(147, 158, 168)
+    }
+
+    .side-nav-bar span{
+        width: 100%;
+    }
+
+    .one{
+        background-color: rgb(19, 19, 88);
+        color: white;
+    }
+
+    .one:hover{
+        background-color: rgb(19, 19, 88);
+        color: white;
+    }
+
+    .one span:hover{
+        background-color: rgb(19, 19, 88);
+        color: white;
+    }
+
+
+        
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px) {
+
+
+
+body{
+    /* background-image: url(/Images/background_in_space.gif); */
+    background-color: white;
+    margin: 0;          
+    font-family: roboto;
+}
+
+.navbar{
+    background-color:white;
+    position: sticky;
+    top: 0;
+    left: 0;   
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    border-bottom: solid 1px;
+}
+
+.header{
+    margin-left: 10px;
+}
+
+.profile1{
+    height: 50px;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+#dd-btn{
+    display: none;
+}
+
+#dd-content{
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.links{
+    text-decoration: none;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      
+    padding: 10px 10px; 
+    font-weight: 600;      
+}
+
+.links:hover{
+    text-decoration: underline;
+    transition: 10ms;
+}
+
+.links:active{
+    color: black;
+}
+
+.right-btn{
+    display: none;
+}
+
+.set{
+    background-color: white;
+    height: fit-content;
+    border-radius: 20px;
+    padding: 1px;
+}
+
+.settings{
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 1px;
+}
+
+.side-nav-bar{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(225, 228, 231);
+    width: 200px;
+    height: 600px;
+    float: left;
+    border-right: solid 1px;
+    Overflow-y:scroll;
+    overflow-x: hidden;
+}
+
+.side-nav-bar h2{
+    text-align: center;
+    background-color: white;
+    margin-top: 0;
+    padding: 20px 0px;
+    margin-bottom: 0;
+}
+
+.side-nav-bar a{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+}
+
+.two:hover{
+    background-color: rgb(147, 158, 168)
+}
+
+.side-nav-bar span{
+    width: 100%;
+}
+
+.one{
+    background-color: rgb(19, 19, 88);
+    color: white;
+}
+
+.one:hover{
+    background-color: rgb(19, 19, 88);
+    color: white;
+}
+
+.one span:hover{
+    background-color: rgb(19, 19, 88);
+    color: white;
+}
+
+
+}

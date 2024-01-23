@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+body{
+    background-image: url(/Images/background_in_space.gif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+    font-family: roboto;
+}
+
+#reset2{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+   
+.input-box{
+    border-radius: 2px;
+    border: solid 1px grey;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    align-self: center;
+}
+
+#create h3{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    align-self: flex-start;
+}
+
+#create{
+    width: 100%;
+    max-width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+#return2{
+    width: fit-content;
+    margin-bottom: 15px;
+    background-color: rgb(11, 7, 53);
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    padding:5px 10px;
+    display: flex;
+    align-self: flex-start;
+}
+
+#next2{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 10px;
+    background-color: rgb(11, 7, 53);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 20px;
+}
+
+#reset2 a{
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+#reset2 a:hover{
+    text-decoration: underline;
+}
+
+</style>
+
+<body>
+    
+    <div id="create">
+
+        <a href="/main/Login.html"><button id="return2">X</button></a>
+
+        <h3>Create Account</h3>
+
+        <div id="reset2">
+
+            <span id="reset-text">
+
+            </span>
+                
+            <input type="text" name="" id="newInput" placeholder="Username" class="input-box">
+
+            <input type="text" name="" id="newPass" placeholder="Password" class="input-box">
+
+            <input type="text" name="" id="newPass2" placeholder="Confirm Password" class="input-box">
+            
+            <a class="link1" href="/main/password_corrector.html">forgot password?</a>
+
+            <a class="link2" href="/main/Login.html">Have an account already</a>
+
+            <button id="next2">Create Account</button>
+
+        </div>
+
+    </div>
+
+    
+<script>
+    document.getElementById("next2").addEventListener("click", send)
+
+    function send(){
+        let username = document.getElementById("newInput").value
+
+        let password = document.getElementById("newPass").value
+
+        let password2 = document.getElementById("newPass2").value
+
+
+        if ((username.value) = "moyo"){
+            (window.open("homepage.html", "_top"))
+        }
+
+    }
+</script>
+
+</body>
+</html>

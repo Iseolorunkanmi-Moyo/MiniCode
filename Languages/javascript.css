@@ -1,0 +1,144 @@
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px) {
+
+
+
+    body{
+        /* background-image: url(/Images/background_in_space.gif); */
+        background-color: white;
+        margin: 0;          
+        font-family: roboto;
+    }
+    
+    .navbar{
+        background-color:white;
+        position: sticky;
+        top: 0;
+        left: 0;   
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        z-index: 1;
+        border-bottom: solid 1px;
+    }
+    
+    .header{
+        margin-left: 10px;
+    }
+    
+    .profile1{
+        height: 50px;
+        border-radius: 100px;
+        padding: 5px;
+    }
+    
+    h2{
+        font-size: 20px;
+    }
+
+    #dd-btn{
+        display: none;
+    }
+    
+    #dd-content{
+        text-align: right;
+        display: flex;
+        justify-content: end;
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+    
+    .links{
+        text-decoration: none;
+        color:black;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      
+        padding: 10px 10px; 
+        font-weight: 600;      
+    }
+    
+    .links:hover{
+        text-decoration: underline;
+        transition: 10ms;
+    }
+    
+    .links:active{
+        color: black;
+    }
+    
+    .set{
+        background-color: white;
+        height: fit-content;
+        border-radius: 20px;
+        padding: 1px;
+    }
+    
+    .settings{
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 1px;
+    }
+    
+    .side-nav-bar{
+        color: black;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(225, 228, 231);
+        width: 200px;
+        height: 600px;
+        float: left;
+        border-right: solid 1px;
+        Overflow-y:scroll;
+        overflow-x: hidden;
+    }
+    
+    .side-nav-bar h2{
+        text-align: center;
+        background-color: white;
+        margin-top: 0;
+        padding: 20px 0px;
+        margin-bottom: 0;
+    }
+    
+    .side-nav-bar a{
+        width: 100%;
+        text-decoration: none;
+        color: black;
+        padding: 8px 12px;
+    }
+    
+    .two:hover{
+        background-color: rgb(147, 158, 168)
+    }
+    
+    .side-nav-bar span{
+        width: 100%;
+    }
+    
+    .one{
+        background-color: rgb(19, 19, 88);
+        color: white;
+    }
+    
+    .one:hover{
+        background-color: rgb(19, 19, 88);
+        color: white;
+    }
+    
+    .one span:hover{
+        background-color: rgb(19, 19, 88);
+        color: white;
+    }
+    
+    
+    }

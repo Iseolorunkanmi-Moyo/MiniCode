@@ -1,0 +1,68 @@
+body{
+    background-image: url(/Images/background_in_space.gif);
+    margin: 0;          
+    font-family: roboto;
+}
+
+.navbar{
+    background-color:white;
+    position: sticky;
+    top: 0;
+    left: 0;   
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.header{
+    margin-left: 10px;
+}
+
+.profile1{
+    height: 50px;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+#dd-btn{
+    display: none;
+}
+
+#dd-content{
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.links{
+    text-decoration: none;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      
+    padding: 10px 10px; 
+    font-weight: 600;      
+}
+
+.links:hover{
+    text-decoration: underline;
+    transition: 10ms;
+}
+
+.links:active{
+    color: black;
+}
+
+.set{
+    background-color: white;
+    height: fit-content;
+    border-radius: 20px;
+    padding: 1px;
+}
+
+.settings{
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 1px;
+}
