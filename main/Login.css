@@ -8,7 +8,6 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    /* padding:0px 100px; */
 }
 
 #login-container {
@@ -40,7 +39,7 @@ input {
     width: 25px;
     height:25px;
     position: relative;
-    left:50% ;
+    left: 88% ;
     bottom: 45px ;
     border: none;
     border-radius: 20px;
@@ -61,10 +60,22 @@ input {
     background-color: rgba(11, 7, 53,0.8);
 }
 
+
+.link-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
 .link1{
     text-decoration: none;
-    float: left;
     font-size: 15px;
+    margin: 0;padding: 0;
+    
 }
 
 .link1:hover{
@@ -77,12 +88,13 @@ input {
 
 .link2{
     text-decoration: none;
-    float: right;
     font-size: 15px;
+    margin: 0;padding: 0;
 }
 
 .link1:active{
     text-decoration: underline;
+    
 }
 
 .link2:active{
@@ -226,7 +238,7 @@ input {
     width: 25px;
     height:25px;
     position: relative;
-    left: 155px;
+    left: 88% ;
     bottom: 45px;
     border: none;
     border-radius: 20px;
@@ -245,6 +257,15 @@ input {
 
 #submit:hover {
     background-color: rgba(11, 7, 53,0.8);
+}
+
+.link-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -30px;
+    margin-bottom: 20px;
 }
 
 .link1{
