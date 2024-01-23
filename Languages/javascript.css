@@ -126,17 +126,17 @@
     }
     
     .one{
-        background-color: rgb(19, 19, 88);
+        background-color: #222731 ;
         color: white;
     }
     
     .one:hover{
-        background-color: rgb(19, 19, 88);
+        background-color:#222731 ;
         color: white;
     }
     
     .one span:hover{
-        background-color: rgb(19, 19, 88);
+        background-color:#222731 ;
         color: white;
     }
     

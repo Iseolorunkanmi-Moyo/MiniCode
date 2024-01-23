@@ -6,7 +6,7 @@
         margin: 0;
         font-family: roboto;
         background-color: white;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 
     .navbar{
@@ -218,7 +218,6 @@
         width: 80%;
         margin: 10px 20%;
         border-radius: 20px;
-        
     }
 
     .log-in{
@@ -229,11 +228,7 @@
         background: transparent;
         font-family: roboto;
     }
-
-    .log-in:hover{
-        
-    }
-
+    
     .gg{
         display: flex;
         flex-direction: column ;
@@ -259,7 +254,6 @@
         width: 100%;
         padding: 5px;
     }
-
 
     .han2{
         display: flex  ;
@@ -291,26 +285,24 @@
     }
 
     .span-1 div{
-        
         margin: 5px;
         line-height: 20px;
     }
 
     code{
         font-size: 14px;
-        
     }
 
     .code{
         background-color: white;
-        border-radius: 20px;
+        border-radius: 10px;
         padding: 15px;
     }
 
     .code-bg{
         background-color: #282A35;;
         padding: 15px;
-        border-radius: 20px;
+        border-radius: 10px;
         width: 80%;
         margin: 10px 20%;
     }        
@@ -523,10 +515,10 @@ body{
     background: transparent;
     font-family: roboto;
 }
-
+/* 
 .log-in:hover{
     
-}
+} */
 
 .gg{
     display: flex;
@@ -579,10 +571,10 @@ body{
 .span{
     padding : 15px 5px;
 }
-
+/* 
 .span-1{
     
-}
+} */
 
 code{
     font-size: 14px;
