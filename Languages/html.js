@@ -14,7 +14,7 @@ document.getElementById("side-nav-bar-main-div").addEventListener("click", funct
         document.getElementById("side-nav-bar-main-div").style.display = "none"
         document.getElementById("dd-content").style.display = "none";
     
-    }, 1000);
+    }, 500);
 
     document.getElementById("side-nav-bar").style.animationName = "slide-out" 
    

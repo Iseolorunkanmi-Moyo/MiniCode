@@ -158,7 +158,7 @@
         z-index: 1;
         scrollbar-width: thin;
         animation-name: ni;
-        animation-duration: 1s;
+        animation-duration: .5s;
         animation-iteration-count: 1;
     }
 
