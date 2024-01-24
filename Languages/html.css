@@ -1,5 +1,5 @@
 /* Phone */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 991px) {
 
     body{
         background-color:white;
@@ -92,27 +92,44 @@
     #dd-content a:active{background-color:#222731 ;
                         color: white;}
     
-    .dd:hover #dd-content {display:block;}  
       
     .dd:hover #dd-btn {background-color: #3e8e41;}
    
     .empty{
-        margin-top: 150px;
+        margin-top: 66px;
     }
 
-    #right-btn{
-        border: none;
-        background-color: white;
-        /* background-image: url(/Images/right-arrow.svg); */
-        font-size:20px ;
-        padding: 10px;
-        border: solid 1px #222731;
-        border-radius: 5px;
-        font-weight: 500;
-        /* height: 40px; */
-        /* width: 40px; */
-        background-size: 100%;
+    .second{
+        overflow-x: scroll;
+        width: 100%;
+        /* display: flex;
+        align-items: center; */
+        /* padding-bottom: 15px; */
+        scrollbar-width: thin;
     }
+    
+    .second-menu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width:fit-content;
+    }
+
+    .links1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        min-width: 100px;
+        height: 30px;
+        color: black;
+        text-decoration: none;
+        background-color: #222731;
+        color: white;
+        padding: 10px;
+        border-right: solid 1px white;
+    }
+
 
     #side-nav-bar-main-div{
         position: absolute;
@@ -133,9 +150,8 @@
         float: left;
         position: fixed;
         left: 0px;
-        border-right: solid 1px;
+        border-right: solid 1px rgba(0,0,0,0.2);
         border-top: solid 1px;
-        /* margin-top: 10px; */
         Overflow-y:scroll;
         overflow-x: hidden;
         z-index: 1;
@@ -244,7 +260,7 @@
         margin-bottom: 50px;
         gap: 30px;
         width: 100%;
-        margin: 10px 10px;
+        padding-top: 10px;
         text-align: center;
         border-bottom: solid 1px ;
         border-top: solid 1px;
@@ -252,8 +268,11 @@
 
     .han{
         display: flex  ;
-        justify-content: space-around;
+        justify-content: space-between;
+        align-items: center;
+        align-self: center;
         margin-bottom: 20px;
+        width: calc(80% +   40px);
     }
 
     .gg2{
@@ -432,6 +451,14 @@ body{
 .body{
     display: flex;
     flex-direction: row;
+}
+
+#close{
+    display: none;
+}
+
+.second{
+    display: none;
 }
 
 .side-nav-bar{
