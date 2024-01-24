@@ -21,22 +21,18 @@ function show() {
 }
 
 
+document.getElementById("side-nav-bar-main-div").addEventListener("click", function(){
+    document.getElementById("side-nav-bar-main-div").style.display = "none"
+})
+
 
 document.querySelector("#right-btn").addEventListener("click", show2);
 
 function show2() {
     
-    document.getElementById("side-nav-bar").style.display = "flex";
-    document.getElementById("right-btn").style.display = "none";
-    document.getElementById("close").style.display = "flex";
-            
+    document.getElementById("side-nav-bar-main-div").style.display = "block";
+    document.getElementById("side-nav-bar").style.display = "flex"            
 }
-
-document.getElementById("close").addEventListener("click", function(){
-    document.getElementById("side-nav-bar").style.display = "none";
-    document.getElementById("close").style.display = "none";
-    document.getElementById("right-btn").style.display = "flex";
-})
 
 var users = ["moyo", "jay"]
 

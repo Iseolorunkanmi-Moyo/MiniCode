@@ -113,6 +113,15 @@
         /* width: 40px; */
         background-size: 100%;
     }
+
+    #side-nav-bar-main-div{
+        position: absolute;
+        width: 100%;
+        background: transparent;
+        height: 100vh;
+        z-index:3 ;
+        display: none;
+    }
     
     .side-nav-bar{
         color: black;
