@@ -5,23 +5,10 @@ var count = 1;
 document.querySelector("#dd-btn").addEventListener("click", show);
 
 function show() {
-    
-    count++
-
-    if (count % 2 === 0){
-
+        document.getElementById("dd-content").style.animationName = "slide-in"
         document.getElementById("dd-content").style.display = "flex";
         document.getElementById("dd-content").style.flexDirection = "column";
-        
-
-    }
-
-    else if (count % 2 === 1){
-
-        document.getElementById("dd-content").style.display = "none";
-
-    }
-    
+        document.getElementById("menuDiv").style.display = "block"
 }
 
 document.getElementById("na").innerHTML = (localStorage.getItem("nam"));
@@ -95,4 +82,15 @@ document.getElementById("search-bar").addEventListener("keypress", function(even
     if(event.key === "Enter"){
         search()
     }
+})
+
+
+
+document.getElementById("menuDiv").addEventListener("click", function(){
+    document.getElementById("dd-content").style.animationName = "slide-out"
+    setTimeout(() => {
+        document.getElementById("menuDiv").style.display = "none";
+        document.getElementById("dd-content").style.display = "none"     
+    }, 1000);
+   
 })
